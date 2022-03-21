@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="saivishnu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-21 10:45:01 PM"/>
+        <attribute name="created" value="c2FpdmlzaG51O1BPUC1PUzsyMDIyLTAzLTIxOzA4OjU5OjU2IFBNOzI3MjE="/>
+        <attribute name="edited" value="c2FpdmlzaG51O1BPUC1PUzsyMDIyLTAzLTIxOzEwOjQ1OjAxIFBNOzg7MjgxNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="w" type="Real" array="False" size=""/>
+            <declare name="l" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the width:&quot;" newline="False"/>
+            <input variable="w"/>
+            <output expression="&quot;Enter the length:&quot;" newline="True"/>
+            <input variable="l"/>
+            <assign variable="area" expression="w * l"/>
+            <output expression="&quot;Area = &quot; &amp;area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
