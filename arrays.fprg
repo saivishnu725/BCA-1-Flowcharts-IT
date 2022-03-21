@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="saivishnu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-03 08:58:39 PM"/>
+        <attribute name="created" value="c2FpdmlzaG51O1BPUC1PUzsyMDIyLTAzLTAzOzA4OjUxOjA4IFBNOzI3MTA="/>
+        <attribute name="edited" value="c2FpdmlzaG51O1BPUC1PUzsyMDIyLTAzLTAzOzA4OjU4OjM5IFBNOzI7MjgzMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="words" type="String" array="True" size="10"/>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <output expression="&quot;Enter the word for index &quot; &amp; i &amp; &quot;: &quot;" newline="False"/>
+                <input variable="words[i]"/>
+            </for>
+            <output expression="&quot;Entered words are: &quot;" newline="True"/>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <output expression="&quot;Index &quot; &amp; i &amp; &quot;: &quot; &amp; words[i]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

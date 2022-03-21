@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="saivishnu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-21 09:02:54 PM"/>
+        <attribute name="created" value="c2FpdmlzaG51O1BPUC1PUzsyMDIyLTAzLTIxOzA4OjU5OjU2IFBNOzI3MjE="/>
+        <attribute name="edited" value="c2FpdmlzaG51O1BPUC1PUzsyMDIyLTAzLTIxOzA5OjAyOjU0IFBNOzM7MjgxOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the first number: &quot;" newline="False"/>
+            <input variable="a"/>
+            <output expression="&quot;Enter the second number: &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="c" expression="a - b"/>
+            <output expression="&quot;Difference = &quot; &amp;c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

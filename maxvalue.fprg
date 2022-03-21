@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="saivishnu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-03 08:03:49 PM"/>
+        <attribute name="created" value="c2FpdmlzaG51O1BPUC1PUzsyMDIyLTAzLTAzOzA3OjQ1OjMwIFBNOzI3MDc="/>
+        <attribute name="edited" value="c2FpdmlzaG51O1BPUC1PUzsyMDIyLTAzLTAzOzA4OjAzOjQ5IFBNOzE7MjgyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, n, max, maxval" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter value of n: &quot;" newline="False"/>
+            <input variable="n"/>
+            <declare name="words" type="Integer" array="True" size="n"/>
+            <output expression="&quot;Enter the elements: &quot;" newline="True"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <input variable="words[i]"/>
+            </for>
+            <assign variable="max" expression="words[0]"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <if expression="words[i] &gt; max">
+                    <then>
+                        <assign variable="max" expression="words[i]"/>
+                        <assign variable="maxval" expression="i"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Maximum number: &quot; &amp; max &amp;&quot; at index: &quot; &amp; maxval" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
